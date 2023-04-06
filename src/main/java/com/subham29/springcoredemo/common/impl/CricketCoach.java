@@ -1,6 +1,6 @@
-package com.subham29.springcoredemo.component.impl;
+package com.subham29.springcoredemo.common.impl;
 
-import com.subham29.springcoredemo.component.api.Coach;
+import com.subham29.springcoredemo.common.api.Coach;
 import org.springframework.stereotype.Component;
 
 @Component

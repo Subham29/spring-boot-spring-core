@@ -1,6 +1,6 @@
 package com.subham29.springcoredemo.controller;
 
-import com.subham29.springcoredemo.component.api.Coach;
+import com.subham29.springcoredemo.common.api.Coach;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
