@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class DemoController {
-    private final Coach myCoach;
+    private Coach myCoach;
 
     @Autowired
-    DemoController(Coach theCoach) {
-        myCoach = theCoach;
+    public void setMyCoach(Coach coach) {
+        myCoach = coach;
     }
 
     @GetMapping("/dailyworkout")
