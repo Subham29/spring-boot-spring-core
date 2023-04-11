@@ -17,14 +17,4 @@ public class CricketCoach implements Coach {
     public String getDailyWorkout() {
         return "<h1>Run around Cricket ground 20 times</h1>";
     }
-    
-    @PostConstruct
-    public void doStartupStuff() {
-        System.out.println("Starting Up");
-    }
-    
-    @PreDestroy
-    public void doCleanupStuff() {
-        System.out.println("\"Cleaning Up\" = " + "Cleaning Up");
-    }
 }
